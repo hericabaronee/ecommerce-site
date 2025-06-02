@@ -41,7 +41,7 @@ const Sidebar = () => {
         <div className='flex w-full justify-between items-center'>
           {/* total */}
           <div className='uppercase font-semibold'>
-            <span className='mr-2'>Total:</span>$ {parseFloat(total).toFixed(2)}
+            <span className='mr-2'>Total:</span>R$ {parseFloat(total).toFixed(2)}
           </div>
           {/* clear cart icon */}
           <div
@@ -52,13 +52,13 @@ const Sidebar = () => {
           </div>
         </div>
         <Link
-          to='/'
+           to='/'
           className='bg-gray-200 flex p-4 justify-center items-center text-primary w-full font-medium'
         >
           View cart
         </Link>
         <Link
-          to='/'
+          to='/checkout'
           className='bg-primary flex p-4 justify-center items-center text-white w-full font-medium'
         >
           Checkout

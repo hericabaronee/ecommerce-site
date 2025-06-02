@@ -1,6 +1,5 @@
 import React from 'react';
 // import images
-import WomanImg from '../img/woman_hero.png';
 // import link
 import { Link } from 'react-router-dom';
 
@@ -16,8 +15,8 @@ const Hero = () => {
           </div>
           {/* title */}
           <h1 className='text-[70px] leading-[1.1] font-light mb-4'>
-            AUTUMN SALE STYLISH <br />
-            <span className='font-semibold'>WOMENS</span>
+           Fall Fashion <br />
+            <span className='font-semibold'> for Women</span>
           </h1>
           <Link
             to={'/'}
@@ -28,7 +27,6 @@ const Hero = () => {
         </div>
         {/* image */}
         <div className='hidden lg:block'>
-          <img src={WomanImg} alt='' />
         </div>
       </div>
     </section>
